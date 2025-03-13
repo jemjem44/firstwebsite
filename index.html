@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Product Showcase</title>
+</head>
+<body>
+    <header>
+        <h1>Ultimate Basketball</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the Product</h2>
+        <p>The Ultimate Basketball is engineered for performance and durability. Perfect for both indoor and outdoor play.</p>
+        <img src="ball.jpg" alt="Ultimate Basketball" />
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>High-Quality Material</li>
+            <li>Exceptional Grip</li>
+            <li>Available in Multiple Sizes</li>
+            <li>Durable and Long-lasting</li>
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <blockquote>"Best basketball I've ever used!" - John Doe</blockquote>
+        <blockquote>"Great for all levels of play." - Jane Smith</blockquote>
+    </section>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
